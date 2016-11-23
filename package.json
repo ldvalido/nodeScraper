@@ -1,0 +1,26 @@
+{
+  "name": "nodescrapper",
+  "version": "1.0.0",
+  "description": "Basic scrapper example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldvalido/nodeScraper.git"
+  },
+  "keywords": [
+    "scrapper",
+    "node",
+    "js",
+    "resolve",
+    "pet"
+  ],
+  "author": "Leandro Valido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldvalido/nodeScraper/issues"
+  },
+  "homepage": "https://github.com/ldvalido/nodeScraper#readme"
+}
