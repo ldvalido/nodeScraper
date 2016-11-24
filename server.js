@@ -1,17 +1,12 @@
 var express = require('express');
 var request = require('sync-request');
 var $ = require('cheerio');
-var app     = express();
+var app = express();
 var fs = require('fs');
 
 var port = process.argv[2] || 8082;
-var rawData = fs.readFileSync('actions.js', 'utf8');
-
-var actions = [
-  {name:'fran'},
-  {name:'mirg'},
-  {name:'ggal'}
-  ];
+var rawData = fs.readFileSync('actions.json', 'utf8');
+var actions = JSON.parse(rawData);
 app.get('/scrape', function(req, res){
   var htmlOutput ='';
   for (var i = 0; i < actions.length; i++) {
