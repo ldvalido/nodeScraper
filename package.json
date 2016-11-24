@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/ldvalido/nodeScraper/issues"
   },
-  "homepage": "https://github.com/ldvalido/nodeScraper#readme"
+  "homepage": "https://github.com/ldvalido/nodeScraper#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  }
 }
