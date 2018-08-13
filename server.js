@@ -3,6 +3,7 @@ var request = require('sync-request');
 var $ = require('cheerio');
 var app = express();
 var fs = require('fs');
+var storage = require('./storage.js');
 
 var port = process.argv[2] || 8082;
 var rawData = fs.readFileSync('actions.json', 'utf8');
